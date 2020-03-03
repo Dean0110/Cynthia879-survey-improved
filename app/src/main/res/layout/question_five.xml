@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEE9E9"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#43CD80"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="SvyU"
+            android:textColor="#ffffff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Question 5"
+            android:textColor="#000000"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:text="What functions are the most often used?"
+            android:textColor="#4F4F4F"
+            android:textSize="18sp"></TextView>
+
+        <RadioGroup
+            android:id="@+id/question05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/m01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Music functions"
+                android:textColor="#000000"
+                android:textSize="13sp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/m02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Photo functions"
+                android:textColor="#000000"
+                android:textSize="13sp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/m03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Game functions"
+                android:textColor="#000000"
+                android:textSize="13sp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/m04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Business functions(Word,Excel,ect.)"
+                android:textColor="#000000"
+                android:textSize="13sp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/m05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="GPS functions"
+                android:textColor="#000000"
+                android:textSize="13sp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/m06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Data functions(Bluetooth,WLAN,ect.)"
+                android:textColor="#000000"
+                android:textSize="13sp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/m07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Others"
+                android:textColor="#000000"
+                android:textSize="13sp"></CheckBox>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:background="#43CD80"
+            android:onClick="next5"
+            android:text="NEXT"
+            android:textColor="#000000"
+            android:textSize="18sp"></Button>
+    </LinearLayout>
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
